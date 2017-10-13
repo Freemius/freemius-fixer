@@ -63,7 +63,7 @@
                                 <input type="submit" class="button button-primary" value="<?php esc_attr_e( '(1) Download Data' ) ?>">
                             </form>
                         </td>
-                        <td><?php _e( 'Please download the corrupted data and send it to the Freemius team for further investigation so the issue can be fixed for others.' ) ?></td>
+                        <td><?php _e( 'Please download the corrupted data and send it to the Freemius team via sdk@freemius.com, along with the error description, for further investigation so the issue can be fixed for others.' ) ?></td>
                     </tr>
                     <tr class="alternate">
                         <td>
