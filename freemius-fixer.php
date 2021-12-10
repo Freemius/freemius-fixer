@@ -34,6 +34,12 @@
                 fs_cleanup();
             }
         }
+        if ( defined( 'WP_CLI' ) && WP_CLI ) { 
+            
+            require_once( plugin_dir_path(__FILE__) . '/cli/FreemiusFixerCli.php' );
+            FreemiusFixerCli::initialize(__FILE__);
+        }
+
     }
 
     add_action(
