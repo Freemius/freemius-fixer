@@ -98,6 +98,8 @@
                 'fs_api_cache',
                 'fs_dbg_api_cache',
                 'fs_debug_mode',
+                'fs_clone_management',
+                'fs_dbg_clone_management',
             ) ) . "'" );
 
         if ( $is_network ) {
@@ -181,6 +183,8 @@
         delete_site_option( 'fs_api_cache' );
         delete_site_option( 'fs_dbg_api_cache' );
         delete_site_option( 'fs_debug_mode' );
+        delete_site_option( 'fs_clone_management' );
+        delete_site_option( 'fs_dbg_clone_management' );
     }
 
     function fs_site_cleanup() {
@@ -190,6 +194,8 @@
         delete_option( 'fs_api_cache' );
         delete_option( 'fs_dbg_api_cache' );
         delete_option( 'fs_debug_mode' );
+        delete_option( 'fs_clone_management' );
+        delete_option( 'fs_dbg_clone_management' );
     }
 
     function fs_cleanup() {
